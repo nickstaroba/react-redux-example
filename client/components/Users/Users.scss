@@ -1,0 +1,17 @@
+.Users {
+  &__button,
+  &__record {
+    display: inline-block;
+    margin: 0 1rem 1rem 0;
+    padding: 0.5rem 1rem;
+  }
+
+  &__button {
+    border: 1px solid $c-gs-80;
+    cursor: pointer;
+  }
+
+  &__record {
+    background: $c-gs-80;
+  }
+}

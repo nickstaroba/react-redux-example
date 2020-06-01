@@ -1,0 +1,16 @@
+.RetryConfirmation {
+  display: flex;
+  margin-left: auto;
+
+  &__prompt {
+    padding: 0.5rem 0.75rem;
+  }
+
+  &__button {
+    background: #fff;
+    border: 1px solid $c-gs-80;
+    border-left: 0;
+    cursor: pointer;
+    padding: 0.5rem 0.75rem;
+  }
+}

@@ -1,0 +1,26 @@
+.Orders {
+  &__order {
+    background: $c-gs-90;
+    display: flex;
+    margin: 0 0 1rem;
+  }
+
+  &__expand-button {
+    background: #fff;
+    border: 1px solid $c-gs-90;
+    cursor: pointer;
+    padding: 0.5rem 0.75rem;
+  }
+
+  &__name {
+    padding: 0.5rem 0.75rem;
+  }
+
+  &__retry-button {
+    background: #fff;
+    border: 1px solid $c-gs-90;
+    cursor: pointer;
+    margin-left: auto;
+    padding: 0.5rem 0.75rem;
+  }
+}

@@ -1,0 +1,29 @@
+.Navigation {
+  &__items {
+    background: #eee;
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+  }
+
+  &__item,
+  &__link {
+    padding: 1rem 0;
+  }
+
+  &__link {
+    color: #000;
+    text-decoration: none;
+
+    &:hover {
+      border-bottom: 2px solid #000;
+    }
+
+    &.active {
+      border-bottom: 1px solid #000;
+    }
+  }
+}
